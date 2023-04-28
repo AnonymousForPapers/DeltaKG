@@ -220,7 +220,7 @@ Up to now, baseline models include K-Adapter, CaliNet, KE, MEND, and KGEditor. T
 
 We are still trying different hyper-parameters and training strategies for these models, and may add new models to this table. We also provide a [leaderboard](https://zjunlp.github.io/project/KGE_Editing/) and a [demo](https://huggingface.co/spaces/zjunlp/KGEditor).
 
-## Citation
+<!-- ## Citation
 
 If you use or extend our work, please cite the paper as follows:
 
@@ -231,7 +231,7 @@ If you use or extend our work, please cite the paper as follows:
   journal={arXiv preprint arXiv:2301.10405},
   year={2023}
 }
-```
+``` -->
 
 ## Other KG Representation Open-Source Projects
 
