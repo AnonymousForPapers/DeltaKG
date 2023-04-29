@@ -218,21 +218,6 @@ Up to now, baseline models include K-Adapter, CaliNet, KE, MEND, and KGEditor. T
   |MEND |0.999|1.0|0.999|0.810|0.987|
   |KGEditor |0.998|1.0|0.999|0.956|0.300|
 
-We are still trying different hyper-parameters and training strategies for these models, and may add new models to this table. We also provide a [leaderboard](https://zjunlp.github.io/project/KGE_Editing/) and a [demo](https://huggingface.co/spaces/zjunlp/KGEditor).
-
-<!-- ## Citation
-
-If you use or extend our work, please cite the paper as follows:
-
-```bibtex
-@article{cheng2023editing,
-  title={Editing Language Model-based Knowledge Graph Embeddings},
-  author={Cheng, Siyuan and Zhang, Ningyu and Tian, Bozhong and Dai, Zelin and Xiong, Feiyu and Guo, Wei and Chen, Huajun},
-  journal={arXiv preprint arXiv:2301.10405},
-  year={2023}
-}
-``` -->
-
 ## Other KG Representation Open-Source Projects
 
 - [OpenKE](https://github.com/thunlp/OpenKE)
