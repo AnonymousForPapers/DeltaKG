@@ -1,8 +1,7 @@
 <div align="center">
-    <!-- <img src="https://github.com/zjunlp/PromptKG/blob/main/resources/lambda_logo.png" width="550px"> -->
-    <h1> DeltaKG </h1>
+    <img src="resource/deltakg_logo.png" width="550px">
     <p> <b>
-        A dynamic, PLM-based library for Knowledge Graph Embeddings.</b>
+        A Library for Dynamically Editing PLMs-Based Knowledge Graph Embeddings.</b>
     </p>
     
 ------
@@ -11,9 +10,6 @@
   <a href="#overview">Overview</a> •
   <a href="#installation">Installation</a> •
   <a href="#how-to-run">How To Run</a> •
-  <a href="https://arxiv.org/pdf/2301.10405">Paper</a> •
-  <a href="https://medium.com/@tbozhong/a935ba8769a7">Medium</a> •
-  <a href="#how-to-cite">Citation</a> •
   <a href="#other-kg-representation-open-source-projects">Others</a> 
 </p>
 </div>
@@ -23,8 +19,6 @@ Knowledge graph embedding (KGE) is a method for representing symbolic facts in l
 
 We introduce DeltaKG (MIT License), a dynamic, PLM-based library for KGEs that equips with numerous baseline models, such as K-Adapter, CaliNet, KnowledgeEditor, MEND, and KGEditor, and supports a variety of datasets, including E-FB15k237, A-FB15k237, E-WN18RR, and A-WN18RR.
 
-**DeltaKG** is now publicly open-sourced, with [a demo](https://huggingface.co/spaces/zjunlp/KGEditor), [a leaderboard](https://zjunlp.github.io/project/KGE_Editing/) and long-term maintenance.
-<!-- - ❗NOTE: We provide some KGE baselines at [OpenBG-IMG](https://github.com/OpenBGBenchmark/OpenBG-IMG). -->
 
 ## Model Architecture
 
@@ -39,7 +33,7 @@ We introduce DeltaKG (MIT License), a dynamic, PLM-based library for KGEs that e
 **Step1** Download the basic code
 
 ```bash
-git clone --depth 1 https://github.com/zjunlp/PromptKG.git
+git clone https://github.com/AnonymousForPapers/DeltaKG.git
 ```
 
 **Step2** Create a virtual environment using `Anaconda` and enter it
@@ -47,9 +41,8 @@ git clone --depth 1 https://github.com/zjunlp/PromptKG.git
 conda create -n deltakg python=3.8
 conda activate deltakg
 ```
-**Step3** Enter the task directory and install library
+**Step3** Install library
 ```bash
-cd PromptKG/deltaKG
 pip install -r requirements.txt
 ```
 
